@@ -66,16 +66,16 @@
             app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
         <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="41dp"
-            android:layout_height="34dp"
+            android:id="@+id/imageView9"
+            android:layout_width="45dp"
+            android:layout_height="36dp"
             app:layout_constraintBottom_toBottomOf="@+id/text"
             app:layout_constraintEnd_toEndOf="@+id/text"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/text"
             app:layout_constraintTop_toTopOf="@+id/text"
             app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/ic_search_black_24dp" />
+            app:srcCompat="@drawable/search" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
