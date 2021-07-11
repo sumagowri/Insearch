@@ -16,7 +16,7 @@ Button Login;
         Login=findViewById(R.id.Login);
         Login.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v){
-                Intent intent = new Intent(CompanyLogin.this,Student_Home.class);
+                Intent intent = new Intent(CompanyLogin.this,Company_Home.class);
                 startActivity(intent);
             }
         });

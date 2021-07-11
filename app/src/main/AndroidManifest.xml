@@ -10,12 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Insearch">
-        <activity android:name=".Student_Home"></activity>
+        <activity android:name=".Company_Home"></activity>
+        <activity android:name=".Student_Home" />
         <activity android:name=".Comp_reg" />
         <activity android:name=".CompanyLogin" />
         <activity android:name=".StudentLogin" />
         <activity android:name=".Stud_reg" />
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
