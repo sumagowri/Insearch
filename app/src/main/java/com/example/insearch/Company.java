@@ -3,42 +3,20 @@ package com.example.insearch;
 public class Company {
 
    // public static String getc_name;
-    private int id;
     public String c_name;
     private String reg_id;
-    private int phone;
+    private long phone;
+    private String address;
     private String email;
     private String password;
 
-    public Company(int id, String c_name, String reg_id, int phone, String email, String password) {
-        this.id = id;
+    public Company( String c_name, String reg_id, long phone, String address, String email, String password) {
         this.c_name = c_name;
         this.reg_id = reg_id;
         this.phone = phone;
+        this.address = address;
         this.email = email;
         this.password = password;
-    }
-
-    public  Company() {
-    }
-    @Override
-    public String toString() {
-        return "Company{" +
-                "id=" + id +
-                ", c_name=" + c_name +
-                ", reg_id=" + reg_id +
-                ", phone=" + phone +
-                ", email=" + email +
-                ", password=" + password +
-                '}';
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getC_name() {
@@ -57,11 +35,11 @@ public class Company {
         this.reg_id = reg_id;
     }
 
-    public int getPhone() {
+    public long getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(long phone) {
         this.phone = phone;
     }
 
@@ -80,4 +58,13 @@ public class Company {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
+

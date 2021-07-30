@@ -3,14 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.insearch">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.Insearch">
-        <activity android:name=".Company_Home"></activity>
+        <activity android:name=".Apply_Internship"></activity>
+        <activity android:name=".Company_student_view"/>
+        <activity android:name=".List_feed" />
+        <activity android:name=".View_feedback" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Internship" />
+        <activity android:name=".Stud_profile" />
+        <activity android:name=".Comp_profile" />
+        <activity android:name=".Company_Home" />
         <activity android:name=".Student_Home" />
         <activity android:name=".Comp_reg" />
         <activity android:name=".CompanyLogin" />

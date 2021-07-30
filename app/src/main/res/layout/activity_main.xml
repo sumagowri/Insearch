@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-
     android:background="#DBF3FA">
 
     <Button
@@ -14,12 +13,12 @@
         android:layout_height="38dp"
         android:layout_marginBottom="84dp"
 
-        android:text="Register"
         android:backgroundTint="@color/navy"
+        android:text="Register"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -28,12 +27,12 @@
         android:layout_height="38dp"
         android:layout_marginBottom="28dp"
 
-        android:text="Login"
         android:backgroundTint="@color/navy"
+        android:text="Login"
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/compReg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -46,49 +45,21 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="187dp"
         android:layout_height="40dp"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="112dp"
         android:text="Student Login "
         android:textColor="@color/black"
         android:textSize="23dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="176dp"
-        android:layout_height="32dp"
-        android:layout_marginBottom="52dp"
-        android:text="Company Login"
-        android:textColor="@color/black"
-        android:textSize="23dp"
-        app:layout_constraintBottom_toTopOf="@+id/compLogin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.412"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/studLogin"
-        android:layout_width="200dp"
-        android:layout_height="38dp"
-
-        android:text="LOGIN"
-        android:backgroundTint="@color/navy"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/studReg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        app:layout_constraintVertical_bias="0.62" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -101,6 +72,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/student" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="176dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="52dp"
+        android:text="Company Login"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/compLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="40dp"
@@ -111,4 +95,171 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/company" />
 
+    <Button
+        android:id="@+id/studLogin"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+
+        android:backgroundTint="@color/navy"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/studReg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.629" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:paddingLeft="16dp"-->
+<!--    android:paddingRight="16dp" >-->
+
+<!--    <Button-->
+<!--        android:id="@+id/studReg"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="38dp"-->
+<!--        android:layout_below="@+id/studLogin"-->
+
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginStart="98dp"-->
+<!--        android:layout_marginLeft="98dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginEnd="98dp"-->
+<!--        android:layout_marginRight="98dp"-->
+<!--        android:layout_marginBottom="0dp"-->
+<!--        android:background="@color/navy"-->
+<!--        android:text="Register"-->
+<!--        android:textColor="@color/white" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/compLogin"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="38dp"-->
+<!--        android:layout_below="@+id/compReg"-->
+
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginStart="98dp"-->
+<!--        android:layout_marginLeft="98dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:layout_marginEnd="98dp"-->
+<!--        android:layout_marginRight="98dp"-->
+<!--        android:layout_marginBottom="28dp"-->
+<!--        android:background="@color/navy"-->
+<!--        android:text="Login"-->
+<!--        android:textColor="@color/white" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/compReg"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="38dp"-->
+<!--        android:layout_below="@+id/textView4"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginStart="98dp"-->
+<!--        android:layout_marginLeft="98dp"-->
+<!--        android:layout_marginTop="52dp"-->
+<!--        android:layout_marginEnd="98dp"-->
+<!--        android:layout_marginRight="98dp"-->
+<!--        android:layout_marginBottom="0dp"-->
+<!--        android:background="@color/navy"-->
+<!--        android:text="Register"-->
+<!--        android:textColor="@color/white" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginStart="-9dp"-->
+<!--        android:layout_marginLeft="-9dp"-->
+<!--        android:layout_marginTop="116dp"-->
+<!--        android:layout_marginEnd="98dp"-->
+<!--        android:layout_marginRight="98dp"-->
+<!--        android:layout_toEndOf="@+id/imageView4"-->
+<!--        android:layout_toRightOf="@+id/imageView4"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Student Login "-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="23dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="191dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_below="@+id/studReg"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginStart="0dp"-->
+<!--        android:layout_marginLeft="0dp"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:layout_marginEnd="98dp"-->
+<!--        android:layout_marginRight="98dp"-->
+<!--        android:layout_marginBottom="0dp"-->
+<!--        android:layout_toEndOf="@+id/imageView5"-->
+<!--        android:layout_toRightOf="@+id/imageView5"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Company Login"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="23dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/studLogin"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="38dp"-->
+
+<!--        android:layout_below="@+id/textView3"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+
+<!--        android:layout_marginStart="98dp"-->
+<!--        android:layout_marginLeft="98dp"-->
+<!--        android:layout_marginTop="52dp"-->
+<!--        android:layout_marginEnd="98dp"-->
+<!--        android:layout_marginRight="98dp"-->
+<!--        android:background="@color/navy"-->
+<!--        android:text="LOGIN"-->
+<!--        android:textColor="@color/white" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView4"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_alignParentStart="true"-->
+
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="75dp"-->
+<!--        android:layout_marginLeft="95dp"-->
+<!--        android:layout_marginTop="113dp"-->
+<!--        android:layout_marginBottom="4dp"-->
+<!--        android:background="@drawable/student" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView5"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="31dp"-->
+<!--        android:layout_below="@+id/imageView4"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="60dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="223dp"-->
+<!--        android:layout_marginBottom="325dp"-->
+<!--        android:background="@drawable/company" />-->
+<!--</RelativeLayout>-->

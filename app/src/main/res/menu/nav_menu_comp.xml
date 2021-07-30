@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/m1"
+            android:id="@+id/profile"
             android:icon="@drawable/user"
             android:title="Profile" />
         <item
-            android:id="@+id/m2"
+            android:id="@+id/intern"
             android:icon="@drawable/add"
-            android:title="Add internship" />
+            android:title="Add internship"
+            />
         <item
-            android:id="@+id/m3"
+            android:id="@+id/application"
             android:icon="@drawable/view"
-            android:title="View applications" />
+            android:title="View feedback" />
         <item
-            android:id="@+id/m4"
+            android:id="@+id/logout"
             android:icon="@drawable/logout"
             android:title="Logout" />
     </group>
